@@ -33,10 +33,16 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@mswjs/interceptors":"0.13.0",
     "@types/node": "^15.12.4",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
     "msw": "^0.36.7",
     "typescript": "^4.3.4"
+  },
+  "overrides": {
+    "msw": {
+      "@mswjs/interceptors":"0.13.0"
+    }
   }
 }
